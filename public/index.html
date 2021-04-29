@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
+    <link rel="icon" href="./favicon.ico">
+    <title>htmlWebpackPlugin.options.title</title>
+  <style data-vue-ssr-id="604e506c:0">
+.custom-loading-mask[data-v-07e00dc6]{background:rgba(0,0,0,.8);position:fixed;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center
+}
+.custom-loading-spinner[data-v-07e00dc6]{display:flex;flex-direction:column;justify-content:center;align-items:center
+}
+.custom-loading-spinner .custom-loading-text[data-v-07e00dc6]{color:#fff
+}
+.loading[data-v-07e00dc6]{width:80px;height:40px;text-align:center
+}
+.loading span[data-v-07e00dc6]{width:5px;height:100%;margin-left:5px;display:inline-block;background:#09f3e7;animation:mymove-data-v-07e00dc6 1.2s infinite ease-in-out;-webkit-animation:mymove-data-v-07e00dc6 1.2s infinite ease-in-out
+}
+.loading>span[data-v-07e00dc6]:nth-child(2){-webkit-animation-delay:-1s;animation-delay:-1s
+}
+.loading>span[data-v-07e00dc6]:nth-child(3){-webkit-animation-delay:-0.9s;animation-delay:-0.9s
+}
+.loading>span[data-v-07e00dc6]:nth-child(4){-webkit-animation-delay:-0.8s;animation-delay:-0.8s
+}
+.loading>span[data-v-07e00dc6]:nth-child(5){-webkit-animation-delay:-0.7s;animation-delay:-0.7s
+}
+@keyframes mymove-data-v-07e00dc6{
+0%{transform:scaleY(0.4)
+}
+25%{transform:scaleY(1)
+}
+50%{transform:scaleY(0.4)
+}
+75%{transform:scaleY(0.4)
+}
+100%{transform:scaleY(0.4)
+}
+}
+@-webkit-keyframes mymove-data-v-07e00dc6{
+0%{transform:scaleY(0.4)
+}
+25%{transform:scaleY(1)
+}
+50%{transform:scaleY(0.4)
+}
+75%{transform:scaleY(0.4)
+}
+100%{transform:scaleY(0.4)
+}
+}
+.fade-enter[data-v-07e00dc6],.fade-leave-to[data-v-07e00dc6]{opacity:0
+}
+.fade-enter-to[data-v-07e00dc6],.fade-leave[data-v-07e00dc6]{opacity:1
+}
+.fade-enter-active[data-v-07e00dc6],.fade-leave-active[data-v-07e00dc6]{transition:all 1s ease
+}</style></head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but htmlWebpackPlugin.options.title doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <div data-server-rendered="true" class="custom-loading-mask" data-v-07e00dc6 data-v-07e00dc6><div class="custom-loading-spinner" data-v-07e00dc6><div class="loading" data-v-07e00dc6><span data-v-07e00dc6></span> <span data-v-07e00dc6></span> <span data-v-07e00dc6></span> <span data-v-07e00dc6></span> <span data-v-07e00dc6></span></div> <br data-v-07e00dc6> <span class="custom-loading-text" data-v-07e00dc6>Loading...</span></div></div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
+

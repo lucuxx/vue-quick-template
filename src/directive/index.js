@@ -3,12 +3,12 @@ import directiveloading from './Loading/directiveLoad'
 import autofocus from './autofocus'
 
 const install = (Vue) => {
-  Object.defineProperty(Vue.prototype, '$loading', {
+  Object.defineProperty(Vue.prototype, '$load', {
     get() {
       return loading
     },
   }),
-    Vue.directive('loading', directiveloading)
+    Vue.directive('directiveloading', directiveloading)
     Vue.directive('autofocus', autofocus)
 }
 
